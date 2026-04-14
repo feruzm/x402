@@ -10,14 +10,17 @@
     1,
     2
   ],
+  "schemes": ["exact", "upto"],
   "evm": {
     "transferMethods": [
       "eip3009",
-      "permit2"
+      "permit2",
+      "upto"
     ]
   },
   "extensions": [
-    "eip2612GasSponsoring"
+    "eip2612GasSponsoring",
+    "erc20ApprovalGasSponsoring"
   ],
   "environment": {
     "required": [
